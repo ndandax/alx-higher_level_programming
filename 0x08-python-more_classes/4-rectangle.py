@@ -65,7 +65,7 @@ class Rectangle:
         else:
             return "".join(list)
 
-        def __repr__(self):
+    def __repr__(self):
         """
         returns a string representation of the rectangle
         """
