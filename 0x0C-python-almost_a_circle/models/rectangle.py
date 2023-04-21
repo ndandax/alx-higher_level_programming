@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """the rectangle class"""
-from models.base import base
+from models.base import Base
 
 
 class Rectangle(Base):
@@ -27,7 +27,6 @@ class Rectangle(Base):
             raise ValueError("width must be > 0")
         self.__width = value
 
-
     @property
     def height(self):
         """get height"""
@@ -42,7 +41,6 @@ class Rectangle(Base):
             raise ValueError("height must be > 0")
         self.__height = value
 
-
     @property
     def x(self):
         """getting x"""
@@ -56,7 +54,6 @@ class Rectangle(Base):
         if value < 0:
             raise ValueError("x can must be >= 0")
         self.__x = value
-
 
     @property
     def y(self):
