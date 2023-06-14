@@ -1,8 +1,4 @@
 #!/usr/bin/node
-/*
-Function returns number of occurences in a list
-*/
-'use strict';
 exports.nbOccurences = function (list, searchElement) {
   let occurences = 0;
 
